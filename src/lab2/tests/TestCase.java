@@ -51,6 +51,6 @@ public class TestCase {
     static void printTestResult(int testCount, int failures) {
         DecimalFormat format = new DecimalFormat("#.####");
         format.setRoundingMode(RoundingMode.CEILING);
-        System.out.println("Test completed:\n" + testCount + " tests, " + failures + " (" + format.format((100. * failures / testCount)) + "%) failed.");
+        System.out.println("TestCase completed:\n" + testCount + " tests, " + failures + " (" + format.format((100. * failures / testCount)) + "%) failed.");
     }
 }
