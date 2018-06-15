@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="43e1912a-c9b1-4255-9c0d-a24f8f48e25c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrkm/lab1/BigInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mrkm/lab1/BigInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrkm/lab1/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mrkm/lab1/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/BigInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/BigInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/TestCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +21,11 @@
       <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="663">
+              <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,11 +33,14 @@
       <file leaf-file-name="BigInt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab1/BigInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            <state relative-caret-position="-885">
+              <caret line="343" column="5" selection-start-line="343" selection-start-column="5" selection-end-line="343" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1529006337005" expanded="true" signature="1625:3269" ph="..." />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+                <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,6 +60,10 @@
     <findStrings>
       <find>ONE</find>
       <find>rangecheck(int</find>
+      <find>Pair</find>
+      <find>1000000000000000000000000000000000000000000</find>
+      <find>mail</find>
+      <find>967ED0ECF5D10B3DEFC6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,16 +91,18 @@
         <option value="$PROJECT_DIR$/src/lab2/tests/TestCase.java" />
         <option value="$PROJECT_DIR$/src/lab3/Client.java" />
         <option value="$PROJECT_DIR$/src/lab3/TestCase.java" />
+        <option value="$PROJECT_DIR$/src/lab1/Temp.java" />
+        <option value="$PROJECT_DIR$/src/lab1/LongNumber.java" />
         <option value="$PROJECT_DIR$/src/lab1/TestCase.java" />
         <option value="$PROJECT_DIR$/src/lab1/BigInt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1197" />
-    <option name="y" value="-1093" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="1300" />
+    <option name="y" value="-1108" />
+    <option name="width" value="1872" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,7 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,12 +136,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CryptographicMechanisms.Labs-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CryptographicMechanisms.Labs" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -145,8 +161,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestCase (1)">
-    <configuration name="TestCase (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.TestCase" />
+    <configuration name="BigInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.BigInt" />
+      <module name="mrkm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.LongNumber" />
       <module name="mrkm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -163,6 +190,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lab2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.TestCase" />
+      <module name="mrkm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,10 +260,14 @@
     <list>
       <item itemvalue="Application.TestCase" />
       <item itemvalue="Application.TestCase (1)" />
+      <item itemvalue="Application.LongNumber" />
+      <item itemvalue="Application.BigInt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestCase (1)" />
+        <item itemvalue="Application.BigInt" />
+        <item itemvalue="Application.LongNumber" />
         <item itemvalue="Application.TestCase" />
         <item itemvalue="Application.TestCase" />
       </list>
@@ -245,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1197" y="-1093" width="1874" height="1096" extended-state="6" />
+    <frame x="55" y="7" width="1872" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -256,12 +298,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33471504" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17276642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17295259" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,10 +326,79 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="2" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/BigInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="168" column="10" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+            <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/BigInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+            <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/BigInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+            <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -301,7 +412,10 @@
           <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1529006337005" expanded="true" signature="1625:3269" ph="..." />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+            <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
           </folding>
         </state>
       </provider>
@@ -411,10 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab2/tests/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -488,20 +591,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab2/tests/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/LongNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="1053" column="50" selection-start-line="1053" selection-start-column="50" selection-end-line="1053" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2740#2741#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3629#3630#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3783#3784#0" expanded="true" />
+            <element signature="e#32754#32755#0" expanded="true" />
+            <element signature="e#32795#32796#0" expanded="true" />
+            <element signature="e#32829#32830#0" expanded="true" />
+            <element signature="e#32866#32867#0" expanded="true" />
+            <element signature="e#32926#32927#0" expanded="true" />
+            <element signature="e#32978#32979#0" expanded="true" />
+            <element signature="e#33242#33243#0" expanded="true" />
+            <element signature="e#33278#33279#0" expanded="true" />
+            <element signature="e#33319#33320#0" expanded="true" />
+            <element signature="e#33356#33357#0" expanded="true" />
+            <element signature="e#33555#33556#0" expanded="true" />
+            <element signature="e#33593#33594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="663">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1/BigInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        <state relative-caret-position="-885">
+          <caret line="343" column="5" selection-start-line="343" selection-start-column="5" selection-end-line="343" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1529006337005" expanded="true" signature="1625:3269" ph="..." />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <marker date="1529074767189" expanded="true" signature="2563:4194" ph="..." />
+            <marker date="1529074767189" expanded="true" signature="7739:7770" ph="..." />
           </folding>
         </state>
       </provider>
